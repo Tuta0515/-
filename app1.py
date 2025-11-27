@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("こんにちわ、吉村ゼミ")
 
-name = st.text_imput("好きな言葉を入力してください")  
+name = st.text_input("好きな言葉を入力してください")  
 st.write(name)
 
 st.checkbox("同意します")
