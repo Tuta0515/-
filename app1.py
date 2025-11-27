@@ -13,7 +13,7 @@ st.write(address)
 score = st.slider("この映画を10点満点で評価してください",0,10,5)
 st.write(score)
 
-st.ragio("性別を選択してください")
+st.radio("性別を選択してください")
 
 
 camera = st.camera_input("写真を撮影します")
