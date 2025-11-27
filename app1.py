@@ -8,7 +8,7 @@ st.write(name)
 st.checkbox("同意します")
 
 address = st.selectbox("次の中から現住所を教えてください",["映画","音楽","散歩"])
-st.write(hobby)
+st.write(address)
 
 st.slider("この映画を10点満点で評価してください",0,10,5)
 st.write(score)
