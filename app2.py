@@ -1,6 +1,6 @@
 import stremlit as st
 
-st.title("こんにちは、吉村ゼミ”）
+st.title("こんにちは、吉村ゼミ"）
 
 name = st.text_imput("好きな言葉を入力してください")  
 st.write(name)
